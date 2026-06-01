@@ -1,4 +1,10 @@
 "use client";
+
+import {
+    MapPin,
+    MenuSquare,
+    CreditCard
+  } from "lucide-react";
 import { SiIfood, SiWhatsapp  } from "react-icons/si";
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -87,7 +93,7 @@ export default function Hero() {
       />
 
       {/* CONTEÚDO */}
-      <div className="relative z-20 mx-auto flex min-h-screen max-w-7xl items-center px-6 lg:px-12">
+      <div className="relative z-20 mx-auto flex right-10 min-h-screen max-w-7xl items-center px-6 lg:px-12">
         <div className="max-w-3xl">
           {/* MINI BANNER */}
           <motion.div
@@ -232,57 +238,228 @@ export default function Hero() {
             </a>
           </motion.div>
 
-          {/* UNIDADES */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{
-              delay: 1,
-              duration: 1,
-            }}
-            className="
-              mt-20
-              flex
-              flex-wrap
-              items-center
-              gap-8
-            "
-          >
-            <div>
-              <p className="text-xl text-[#A4EA4F]">
-                Taquaral
-              </p>
+        {/* ACESSOS RÁPIDOS */}
+<motion.div
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{
+    delay: 1,
+    duration: 1,
+  }}
+  className="
+    mt-16
+    flex
+    flex-wrap
+    gap-4
+  "
+>
+  {/* CARDÁPIO */}
+  <a
+    href="LINK_CARDAPIO_TAQUARAL"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="
+      group
+      relative
+      overflow-hidden
+      rounded-2xl
+      px-6
+      py-4
+      backdrop-blur-xl
+      transition-all
+      duration-500
 
-              <p className="text-sm text-[#F1F0E7]/70">
-                Campinas
-              </p>
-            </div>
+      bg-gradient-to-r
+      from-white/[0.08]
+      via-white/[0.04]
+      to-transparent
 
-            <div>
-              <p className="text-xl text-[#A4EA4F]">
-                Viracopos
-              </p>
+      hover:-translate-y-1
+      hover:shadow-[0_15px_40px_rgba(164,234,79,0.08)]
+    "
+  >
+    {/* Borda Premium */}
+    <div
+      className="
+        absolute
+        inset-0
+        rounded-2xl
+        border
+        border-[#A4EA4F]/30
+        opacity-0
+        transition-opacity
+        duration-500
+        group-hover:opacity-100
+      "
+    />
 
-              <p className="text-sm text-[#F1F0E7]/70">
-                24 horas
-              </p>
-            </div>
+    {/* Shine Effect */}
+    <div
+      className="
+        absolute
+        inset-y-0
+        -left-20
+        w-20
+        bg-gradient-to-r
+        from-transparent
+        via-white/15
+        to-transparent
+        transition-all
+        duration-700
+        group-hover:left-[120%]
+      "
+    />
 
-            <div>
-              <p className="text-xl text-[#A4EA4F]">
-                Guarulhos
-              </p>
+    <div className="relative z-10">
+      <div className="flex items-center gap-2 text-[#A4EA4F] font-medium">
+        <MenuSquare size={18} />
+        Cardápio
+      </div>
 
-              <p className="text-sm text-[#F1F0E7]/70">
-                Todos os dias
-              </p>
-            </div>
-          </motion.div>
+      <p className="mt-1 text-sm text-[#F1F0E7]/70">
+        Unidade Taquaral
+      </p>
+    </div>
+  </a>
+
+  {/* VR VA */}
+  <a
+    href="LINK_VR_VA"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="
+      group
+      relative
+      overflow-hidden
+      rounded-2xl
+      px-6
+      py-4
+      backdrop-blur-xl
+      transition-all
+      duration-500
+
+      bg-gradient-to-r
+      from-white/[0.08]
+      via-white/[0.04]
+      to-transparent
+
+      hover:-translate-y-1
+      hover:shadow-[0_15px_40px_rgba(164,234,79,0.08)]
+    "
+  >
+    <div
+      className="
+        absolute
+        inset-0
+        rounded-2xl
+        border
+        border-[#A4EA4F]/30
+        opacity-0
+        transition-opacity
+        duration-500
+        group-hover:opacity-100
+      "
+    />
+
+    <div
+      className="
+        absolute
+        inset-y-0
+        -left-20
+        w-20
+        bg-gradient-to-r
+        from-transparent
+        via-white/15
+        to-transparent
+        transition-all
+        duration-700
+        group-hover:left-[120%]
+      "
+    />
+
+    <div className="relative z-10">
+      <div className="flex items-center gap-2 text-[#A4EA4F] font-medium">
+        <CreditCard size={18} />
+        VR & VA
+      </div>
+
+      <p className="mt-1 text-sm text-[#F1F0E7]/70">
+        Bandeiras aceitas
+      </p>
+    </div>
+  </a>
+
+  {/* LOCALIZAÇÕES */}
+  <a
+    href="#localizacoes"
+    className="
+      group
+      relative
+      overflow-hidden
+      rounded-2xl
+      px-6
+      py-4
+      backdrop-blur-xl
+      transition-all
+      duration-500
+
+      bg-gradient-to-r
+      from-white/[0.08]
+      via-white/[0.04]
+      to-transparent
+
+      hover:-translate-y-1
+      hover:shadow-[0_15px_40px_rgba(164,234,79,0.08)]
+    "
+  >
+    <div
+      className="
+        absolute
+        inset-0
+        rounded-2xl
+        border
+        border-[#A4EA4F]/30
+        opacity-0
+        transition-opacity
+        duration-500
+        group-hover:opacity-100
+      "
+    />
+
+    <div
+      className="
+        absolute
+        inset-y-0
+        -left-20
+        w-20
+        bg-gradient-to-r
+        from-transparent
+        via-white/15
+        to-transparent
+        transition-all
+        duration-700
+        group-hover:left-[120%]
+      "
+    />
+
+    <div className="relative z-10">
+      <div className="flex items-center gap-2 text-[#A4EA4F] font-medium">
+        <MapPin size={18} />
+        Localizações
+      </div>
+
+      <p className="mt-1 text-sm text-[#F1F0E7]/70">
+        Ver unidades
+      </p>
+    </div>
+  </a>
+</motion.div>
         </div>
       </div>
 
       {/* CARD FLOUTING */}
       <div className="absolute bottom-10 right-10 hidden lg:block">
+        
         <div
           className="
             rounded-[32px]
