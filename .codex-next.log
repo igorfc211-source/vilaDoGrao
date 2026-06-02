@@ -1,0 +1,75 @@
+
+> viladograo@0.1.0 dev
+> next dev --hostname 0.0.0.0 --port 3000
+
+   ▲ Next.js 15.5.18
+   - Local:        http://localhost:3000
+   - Network:      http://0.0.0.0:3000
+
+ ✓ Starting...
+ ✓ Ready in 4.4s
+ ○ Compiling / ...
+ ✓ Compiled / in 8.6s (1580 modules)
+ GET / 200 in 12045ms
+ ✓ Compiled in 776ms (693 modules)
+ ✓ Compiled in 886ms (693 modules)
+ ✓ Compiled in 1481ms (693 modules)
+ ✓ Compiled in 900ms (693 modules)
+ ✓ Compiled in 1939ms (693 modules)
+ ✓ Compiled in 925ms (693 modules)
+ ✓ Compiled in 818ms (693 modules)
+ ✓ Compiled in 1024ms (693 modules)
+ ✓ Compiled in 872ms (693 modules)
+ ✓ Compiled in 858ms (693 modules)
+ ✓ Compiled in 917ms (693 modules)
+ ✓ Compiled in 1029ms (693 modules)
+ ✓ Compiled in 941ms (693 modules)
+ ✓ Compiled in 833ms (693 modules)
+ ✓ Compiled in 1438ms (693 modules)
+ ✓ Compiled in 915ms (693 modules)
+ ✓ Compiled in 775ms (693 modules)
+ ✓ Compiled in 806ms (693 modules)
+ ✓ Compiled in 766ms (693 modules)
+ ✓ Compiled in 1014ms (693 modules)
+ ✓ Compiled in 632ms (693 modules)
+ ✓ Compiled in 1027ms (693 modules)
+ ✓ Compiled in 1029ms (693 modules)
+ ✓ Compiled in 2.7s (693 modules)
+ ✓ Compiled in 749ms (693 modules)
+ ✓ Compiled in 746ms (693 modules)
+ ✓ Compiled in 502ms (693 modules)
+ ✓ Compiled in 578ms (693 modules)
+ ✓ Compiled in 570ms (693 modules)
+ ○ Compiling / ...
+ ✓ Compiled / in 2.6s (887 modules)
+ GET / 200 in 7174ms
+ ✓ Compiled in 611ms (693 modules)
+ ✓ Compiled in 513ms (693 modules)
+ ✓ Compiled in 676ms (693 modules)
+ ✓ Compiled in 822ms (693 modules)
+ ✓ Compiled in 455ms (693 modules)
+ ✓ Compiled in 443ms (693 modules)
+ ✓ Compiled in 480ms (693 modules)
+ ○ Compiling / ...
+ ✓ Compiled / in 577ms (887 modules)
+ GET / 200 in 1896ms
+ ✓ Compiled in 1145ms (1580 modules)
+ GET / 200 in 329ms
+ ✓ Compiled in 768ms (1580 modules)
+ GET / 200 in 128ms
+ ✓ Compiled in 850ms (1580 modules)
+ GET / 200 in 175ms
+ ✓ Compiled in 693ms (1580 modules)
+ GET / 200 in 107ms
+ ✓ Compiled in 866ms (1580 modules)
+ GET / 200 in 150ms
+ ✓ Compiled in 1074ms (1580 modules)
+ GET / 200 in 214ms
+ ✓ Compiled in 816ms (1580 modules)
+ GET / 200 in 165ms
+ ✓ Compiled in 648ms (1580 modules)
+ GET / 200 in 164ms
+ ✓ Compiled in 840ms (1580 modules)
+ GET / 200 in 127ms
+ ✓ Compiled in 804ms (1580 modules)
+ GET / 200 in 100ms

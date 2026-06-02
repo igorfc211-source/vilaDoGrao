@@ -1,0 +1,84 @@
+ ⨯ ./src/components/sections/hero.tsx
+Error:   [31mx[0m Expression expected
+    ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\components\sections\hero.tsx[0m:60:1]
+ [2m57[0m |   }, []);
+ [2m58[0m | 
+ [2m59[0m |     return () => clearInterval(interval);
+ [2m60[0m |   }, []);
+    : [35;1m   ^[0m
+ [2m61[0m | 
+ [2m62[0m |   return (
+ [2m63[0m |     <section
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/hero.tsx
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\cache\webpack\client-development\3.pack.gz_' -> 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\cache\webpack\client-development\3.pack.gz'
+ ⨯ ./src/components/sections/hero.tsx
+Error:   [31mx[0m Expected '</', got 'jsx text (
+  [31m|[0m
+  [31m|[0m           )'
+     ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\components\sections\hero.tsx[0m:121:1]
+ [2m118[0m |                     Alimentação saudável premium
+ [2m119[0m |                   </span>
+ [2m120[0m |                 </div>
+ [2m121[0m | [35;1m,[0m[35;1m-[0m[35;1m>[0m           </motion.div>
+ [2m122[0m | [35;1m|[0m   
+ [2m123[0m | [35;1m`[0m[35;1m-[0m[35;1m>[0m           <motion.h1
+ [2m124[0m |                 initial={{ opacity: 0, y: 30 }}
+ [2m125[0m |                 animate={{ opacity: 1, y: 0 }}
+ [2m126[0m |                 transition={{ duration: 1.2 }}
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/hero.tsx
+ ⨯ ./src/components/sections/hero.tsx
+Error:   [31mx[0m Expected '</', got 'jsx text (
+  [31m|[0m
+  [31m|[0m           )'
+     ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\components\sections\hero.tsx[0m:133:1]
+ [2m130[0m |                 <span className="block text-[#A4EA4F]">
+ [2m131[0m |                   saudável em experiência
+ [2m132[0m |                 </span>
+ [2m133[0m | [35;1m,[0m[35;1m-[0m[35;1m>[0m           </motion.h1>
+ [2m134[0m | [35;1m|[0m   
+ [2m135[0m | [35;1m`[0m[35;1m-[0m[35;1m>[0m           <motion.p
+ [2m136[0m |                 initial={{ opacity: 0 }}
+ [2m137[0m |                 animate={{ opacity: 1 }}
+ [2m138[0m |                 transition={{ delay: 0.4, duration: 1 }}
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/hero.tsx
+ ⨯ ./src/components/sections/hero.tsx
+Error:   [31mx[0m Expected '</', got 'jsx text (
+  [31m|[0m
+  [31m|[0m           )'
+     ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\components\sections\hero.tsx[0m:142:1]
+ [2m139[0m |                 Ingredientes selecionados, ambiente sofisticado e refeições
+ [2m140[0m |                 pensadas para quem valoriza bem-estar, qualidade e uma experiência
+ [2m141[0m |                 gastronômica única.
+ [2m142[0m | [35;1m,[0m[35;1m-[0m[35;1m>[0m           </motion.p>
+ [2m143[0m | [35;1m|[0m   
+ [2m144[0m | [35;1m`[0m[35;1m-[0m[35;1m>[0m           <motion.div
+ [2m145[0m |                 initial={{ opacity: 0 }}
+ [2m146[0m |                 animate={{ opacity: 1 }}
+ [2m147[0m |                 transition={{ delay: 0.8, duration: 1 }}
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/hero.tsx
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: invalid block type
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: invalid block type

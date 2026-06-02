@@ -2,20 +2,27 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { motion, AnimatePresence } from "framer-motion";
-import { useState, useEffect } from "react";
-
+import { AnimatePresence, motion } from "framer-motion";
+import { useEffect, useState } from "react";
+import { Instagram, Menu, MessageCircle, X } from "lucide-react";
+import { SiIfood, SiSpotify } from "react-icons/si";
 import {
-  Menu,
-  X,
-  Instagram,
-  MessageCircle,
-} from "lucide-react";
+  IFOOD_URL,
+  INSTAGRAM_URL,
+  WHATSAPP_URL,
+} from "../../lib/brand-links";
 
-import {
-  SiSpotify,
-  SiIfood,
-} from "react-icons/si";
+const leftLinks = [
+  { href: "#experiencia", label: "Experiência" },
+  { href: "#cardapio", label: "Cardápio" },
+  { href: "#localizacoes", label: "Unidades" },
+];
+
+const rightLinks = [
+  { href: "#beneficios", label: "Benefícios" },
+  { href: INSTAGRAM_URL, label: "Instagram", external: true },
+  { href: "#contato", label: "Contato" },
+];
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -26,13 +33,10 @@ export default function Header() {
       setScrolled(window.scrollY > 40);
     };
 
-    window.addEventListener("scroll", handleScroll);
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
 
-    return () =>
-      window.removeEventListener(
-        "scroll",
-        handleScroll
-      );
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
@@ -40,335 +44,207 @@ export default function Header() {
       <motion.header
         initial={{ y: -100 }}
         animate={{ y: 0 }}
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
         className={`
-          fixed
-          top-0
-          left-0
-          z-50
-          w-full
-          transition-all
-          duration-500
+          fixed left-0 top-0 z-50 w-full
+          transition-all duration-500
           ${
             scrolled
-            ? "border-b border-white/10 bg-[#1B2B1B]/90 backdrop-blur-[32px]"
-            : "bg-[#1B2B1B]/20 backdrop-blur-[12px]"
+              ? "border-b border-white/10 bg-[#1B2B1B]/90 shadow-[0_18px_60px_rgba(0,0,0,0.18)] backdrop-blur-2xl"
+              : "bg-[#1B2B1B]/25 backdrop-blur-md"
           }
         `}
       >
-        <div
-          className="
-            mx-auto
-            flex
-            h-24
-            max-w-7xl
-            items-center
-            justify-between
-            px-6
-            lg:px-12
-          "
-        >
-          {/* MENU ESQUERDA */}
-          <nav
-            className="
-              hidden
-              flex-1
-              justify-end
-              gap-8
-              lg:flex
-              bg-transparent
-            "
-          >
-            <Link
-              href="#sobre"
-              className="
-  rounded-full
-
-  p-2.5
-  text-white/80
-  backdrop-blur-xl
-  transition-all
-  duration-300
-  hover:scale-110
-
-  hover:text-[#A4EA4F]
-"
-            >
-              Sobre
-            </Link>
-           
-            <Link
-              href="#sobre"
-              className="
-  rounded-full
-
-  p-2.5
-  text-white/80
-  backdrop-blur-xl
-  transition-all
-  duration-300
-  hover:scale-110
-
-  hover:text-[#A4EA4F]
-"
-            >
-              Cardápio
-            </Link>
-
-            <Link
-              href="#sobre"
-              className="
-  rounded-full
-
-  p-2.5
-  text-white/80
-  backdrop-blur-xl
-  transition-all
-  duration-300
-  hover:scale-110
-
-  hover:text-[#A4EA4F]
-"
-            >
-              Unidades
-            </Link>
+        <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 sm:h-24 sm:px-6 lg:px-10 xl:px-12">
+          <nav className="hidden flex-1 justify-end gap-3 lg:flex xl:gap-6">
+            {leftLinks.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="rounded-lg px-3 py-2 text-sm font-medium text-white/80 transition duration-300 hover:bg-white/[0.08] hover:text-[#A4EA4F]"
+              >
+                {item.label}
+              </Link>
+            ))}
           </nav>
 
-          {/* LOGO */}
-      <motion.div
-  whileHover={{ scale: 1.03 }}
-  className="mx-8"
->
-            <Link href="/">
-            <Image
-  src="/images/logo.png"
-  alt="Vila do Grão"
-  width={220}
-  height={70}
-  priority
-  className="
-    h-auto
-    max-h-[70px]
-    w-auto
-    object-contain
-    
-  "
-/>
+          <motion.div
+            whileHover={{ scale: 1.03 }}
+            className="flex shrink-0 justify-center lg:mx-4 xl:mx-8"
+          >
+            <Link href="/" aria-label="Ir para o início">
+              <Image
+                src="/images/logo.png"
+                alt="Vila do Grão"
+                width={76}
+                height={76}
+                priority
+                className="h-14 w-14 object-contain sm:h-[70px] sm:w-[70px]"
+              />
             </Link>
           </motion.div>
 
-          {/* MENU DIREITO */}
-          <nav
-            className="
-              hidden
-              flex-1
-              items-center
-              gap-8
-              lg:flex
-            "
-          >
-             <Link
-              href="#sobre"
-              className="
-  rounded-full
-
-  p-2.5
-  text-white/80
-  backdrop-blur-xl
-  transition-all
-  duration-300
-  hover:scale-110
- 
-  hover:text-[#A4EA4F]
-"
-            >
-              Benefícios
-            </Link>
-
-            <Link
-              href="#sobre"
-              className="
-  rounded-full
-
-  p-2.5
-  text-white/80
-  backdrop-blur-xl
-  transition-all
-  duration-300
-  hover:scale-110
-
-  hover:text-[#A4EA4F]
-"
-            >
-              Playlist
-            </Link>
-
-            <Link
-              href="#sobre"
-              className="
-  rounded-full
-
-  p-2.5
-  text-white/80
-  backdrop-blur-xl
-  transition-all
-  duration-300
-  hover:scale-110
- 
-  hover:text-[#A4EA4F]
-"
-            >
-              Contato
-            </Link>
+          <nav className="hidden flex-1 items-center gap-3 lg:flex xl:gap-6">
+            {rightLinks.map((item) =>
+              item.external ? (
+                <a
+                  key={item.label}
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-lg px-3 py-2 text-sm font-medium text-white/80 transition duration-300 hover:bg-white/[0.08] hover:text-[#A4EA4F]"
+                >
+                  {item.label}
+                </a>
+              ) : (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className="rounded-lg px-3 py-2 text-sm font-medium text-white/80 transition duration-300 hover:bg-white/[0.08] hover:text-[#A4EA4F]"
+                >
+                  {item.label}
+                </Link>
+              )
+            )}
           </nav>
 
-          {/* REDES */}
-          <div
-            className="
-              hidden
-              items-center
-              gap-3
-              lg:flex
-            "
-          >
+          <div className="hidden items-center gap-3 lg:flex">
             <a
-              href="#instagram"
-              className="
-                text-white/60
-                transition
-                hover:text-[#c471cf]
-              "
+              href={INSTAGRAM_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Abrir Instagram da Vila do Grão"
+              className="rounded-lg p-2 text-white/60 transition hover:bg-white/[0.08] hover:text-[#d88be0]"
             >
               <Instagram size={18} />
             </a>
 
             <a
-              href="#spotify"
-              className="
-                text-white/60
-                transition
-                hover:text-[#A4EA4F]
-              "
+              href="#contato"
+              aria-label="Ver canais de contato"
+              className="rounded-lg p-2 text-white/60 transition hover:bg-white/[0.08] hover:text-[#A4EA4F]"
             >
               <SiSpotify size={17} />
             </a>
 
             <a
-              href="#ifood"
-              className="
-                text-white/60
-                transition
-                hover:text-[#EA1D2C]
-              "
+              href={IFOOD_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Pedir Vila do Grão no iFood"
+              className="rounded-lg p-2 text-white/60 transition hover:bg-white/[0.08] hover:text-[#EA1D2C]"
             >
-              <SiIfood size={17} />
+              <SiIfood size={18} />
             </a>
 
             <a
-              href="#whatsapp"
-              className="
-                rounded-full
-                bg-[#A4EA4F]
-                p-2.5
-                text-[#1B2B1B]
-                transition-all
-                hover:scale-110
-              "
+              href={WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Falar com a Vila do Grão no WhatsApp"
+              className="rounded-full bg-[#A4EA4F] p-2.5 text-[#1B2B1B] transition duration-300 hover:scale-105 hover:bg-[#96C549]"
             >
               <MessageCircle size={16} />
             </a>
-
-           
           </div>
 
-          {/* MOBILE */}
           <button
+            type="button"
             onClick={() => setOpen(true)}
-            className="
-              ml-auto
-              text-white
-              lg:hidden
-            "
+            aria-label="Abrir menu"
+            className="ml-auto rounded-lg p-2 text-white transition hover:bg-white/10 lg:hidden"
           >
-            <Menu size={30} />
+            <Menu size={28} />
           </button>
         </div>
       </motion.header>
 
-      {/* MENU MOBILE */}
       <AnimatePresence>
         {open && (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="
-              fixed
-              inset-0
-              z-[100]
-              bg-[#1B2B1B]
-            "
+            className="fixed inset-0 z-[100] overflow-y-auto bg-[#1B2B1B] text-[#FAFAF7]"
           >
-            <div className="p-6">
-              <button
-                onClick={() => setOpen(false)}
-                className="text-white"
-              >
-                <X size={32} />
-              </button>
-            </div>
+            <div className="flex min-h-[100dvh] flex-col px-6 py-6">
+              <div className="flex items-center justify-between">
+                <Image
+                  src="/images/logo.png"
+                  alt="Vila do Grão"
+                  width={72}
+                  height={72}
+                  className="h-16 w-16 object-contain"
+                />
 
-            <div
-              className="
-                flex
-                h-full
-                flex-col
-                items-center
-                justify-center
-                gap-8
-              "
-            >
-             <Image
-  src="/images/logo.png"
-  alt="Vila do Grão"
-  width={260}
-  height={80}
-  className="
-    h-auto
-    max-h-[72px]
-    w-auto
-    rounded-2xl
-  "
-/>
-
-              <Link href="#sobre">Sobre</Link>
-              <Link href="#cardapio">Cardápio</Link>
-              <Link href="#unidades">Unidades</Link>
-              <Link href="#beneficios">Benefícios</Link>
-              <Link href="#spotify">Playlist</Link>
-              <Link href="#contato">Contato</Link>
-
-              <div className="flex gap-6 mt-4">
-                <Instagram />
-                <SiSpotify />
-                <SiIfood />
-                <MessageCircle />
+                <button
+                  type="button"
+                  onClick={() => setOpen(false)}
+                  aria-label="Fechar menu"
+                  className="rounded-lg p-2 text-white transition hover:bg-white/10"
+                >
+                  <X size={30} />
+                </button>
               </div>
 
-              <a
-                href="#ifood"
-                className="
-                  mt-6
-                  rounded-full
-                  bg-[#A4EA4F]
-                  px-8
-                  py-4
-                  font-medium
-                  text-[#1B2B1B]
-                "
-              >
-                Pedir Agora
-              </a>
+              <nav className="mt-14 flex flex-1 flex-col justify-center gap-5">
+                {[...leftLinks, ...rightLinks.filter((item) => !item.external)].map(
+                  (item) => (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      onClick={() => setOpen(false)}
+                      className="border-b border-white/10 py-4 text-2xl font-light"
+                    >
+                      {item.label}
+                    </Link>
+                  )
+                )}
+              </nav>
+
+              <div className="mt-10 grid gap-3 sm:grid-cols-2">
+                <a
+                  href={IFOOD_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-3 rounded-full bg-[#A4EA4F] px-6 py-4 font-semibold text-[#1B2B1B]"
+                >
+                  <SiIfood size={20} />
+                  Pedir no iFood
+                </a>
+
+                <a
+                  href={WHATSAPP_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-3 rounded-full border border-white/20 px-6 py-4 font-semibold text-white"
+                >
+                  <MessageCircle size={19} />
+                  WhatsApp
+                </a>
+              </div>
+
+              <div className="mt-8 flex justify-center gap-5 pb-4 text-white/70">
+                <a
+                  href={INSTAGRAM_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram"
+                >
+                  <Instagram />
+                </a>
+                <a href="#contato" aria-label="Playlist">
+                  <SiSpotify size={24} />
+                </a>
+                <a
+                  href={IFOOD_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="iFood"
+                >
+                  <SiIfood size={24} />
+                </a>
+              </div>
             </div>
           </motion.div>
         )}
