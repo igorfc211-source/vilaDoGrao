@@ -13,8 +13,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Vila do Grão",
-  description: "Alimentação saudável com experiência premium",
+  title: "Vila do Grão | Cafeteria e Restaurante saudável em Campinas",
+  description: "Conheça a Vila do Grão, cafeteria e espaço para eventos em Campinas e mais. Ambiente sofisticado, cafés especiais e experiências únicas.",
 };
 
 export default function RootLayout({

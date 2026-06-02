@@ -9,7 +9,7 @@ const experiences = [
     image: "/images/experience/foto1.png",
     title: "Aqui você é o chef",
     description:
-      "Na Vila do Grão, temos opções personalizadas para cada paladar, permitindo que você crie refeições que sejam a sua cara, com ingredientes frescos e de alta qualidade.",
+      "Na Vila do Grão, temos opções personalizadas para cada paladar,  que você crie refeições que sejam a sua cara.",
   },
   {
     image: "/images/experience/foto2.png",
