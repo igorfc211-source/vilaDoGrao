@@ -228,7 +228,7 @@ export default function Reviews() {
 
                   {/* texto */}
                   <p className="mt-3.5 text-sm leading-relaxed text-white/65">
-                    "{review.text}"
+                    {review.text}
                   </p>
                 </div>
               ))}

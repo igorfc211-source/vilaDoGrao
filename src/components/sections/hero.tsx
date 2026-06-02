@@ -12,7 +12,6 @@ import {
 } from "lucide-react";
 import { SiIfood, SiWhatsapp } from "react-icons/si";
 import {
-  DIGITAL_MENU_PAGE_URL,
   IFOOD_URL,
   WHATSAPP_URL,
 } from "../../lib/brand-links";
