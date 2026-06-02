@@ -34,7 +34,12 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative min-h-screen overflow-hidden bg-[#1B2B1B]">
+    <section  className="
+    relative
+    min-h-screen
+    overflow-hidden
+    bg-[#1B2B1B]
+  ">
       {/* BACKGROUND ESQUERDA */}
       <div className="absolute inset-y-0 left-0 w-[65%] bg-[#1B2B1B]" />
 
@@ -136,7 +141,7 @@ export default function Hero() {
           >
             Seu novo ritual
             <span className="block text-[#A4EA4F]">
-              saudável em Campinas
+              saudável em experiência
             </span>
           </motion.h1>
 
@@ -511,6 +516,8 @@ export default function Hero() {
           className="text-[#A4EA4F]"
         />
       </motion.div>
+
     </section>
+    
   );
 }

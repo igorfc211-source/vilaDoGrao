@@ -76,6 +76,7 @@ export default function Header() {
               justify-end
               gap-8
               lg:flex
+              bg-transparent
             "
           >
             <Link
@@ -89,13 +90,13 @@ export default function Header() {
   transition-all
   duration-300
   hover:scale-110
-  hover:bg-[#A4EA4F]/10
+
   hover:text-[#A4EA4F]
 "
             >
               Sobre
             </Link>
-
+           
             <Link
               href="#sobre"
               className="
@@ -107,7 +108,7 @@ export default function Header() {
   transition-all
   duration-300
   hover:scale-110
-  hover:bg-[#A4EA4F]/10
+
   hover:text-[#A4EA4F]
 "
             >
@@ -125,7 +126,7 @@ export default function Header() {
   transition-all
   duration-300
   hover:scale-110
-  hover:bg-[#A4EA4F]/10
+
   hover:text-[#A4EA4F]
 "
             >
@@ -177,7 +178,7 @@ export default function Header() {
   transition-all
   duration-300
   hover:scale-110
-  hover:bg-[#A4EA4F]/10
+ 
   hover:text-[#A4EA4F]
 "
             >
@@ -195,7 +196,7 @@ export default function Header() {
   transition-all
   duration-300
   hover:scale-110
-  hover:bg-[#A4EA4F]/10
+
   hover:text-[#A4EA4F]
 "
             >
@@ -213,7 +214,7 @@ export default function Header() {
   transition-all
   duration-300
   hover:scale-110
-  hover:bg-[#A4EA4F]/10
+ 
   hover:text-[#A4EA4F]
 "
             >
@@ -235,7 +236,7 @@ export default function Header() {
               className="
                 text-white/60
                 transition
-                hover:text-[#A4EA4F]
+                hover:text-[#c471cf]
               "
             >
               <Instagram size={18} />
