@@ -25,7 +25,7 @@ const images = [
  
 const quickLinks = [
   {
-    href: "#menu",
+    href: "#cardapio",
     label: "Cardápio",
     description: "Unidade Taquaral",
     icon: MenuSquare,
