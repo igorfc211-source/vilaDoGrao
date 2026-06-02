@@ -26,14 +26,13 @@ const images = [
  
 const quickLinks = [
   {
-    href: DIGITAL_MENU_PAGE_URL,
+    href: "#cardapio",
     label: "Cardápio",
     description: "Unidade Taquaral",
     icon: MenuSquare,
-    external: true,
   },
   {
-    href: "#beneficios",
+    href: "https://heyzine.com/flip-book/2777acdb05.html",
     label: "VR & VA",
     description: "Bandeiras aceitas",
     icon: CreditCard,

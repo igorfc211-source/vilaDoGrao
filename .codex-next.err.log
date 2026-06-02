@@ -351,3 +351,297 @@ Caused by:
 Import trace for requested module:
 ./src/components/sections/experience.tsx
 ./src/app/page.tsx
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\cache\webpack\client-development\0.pack.gz_' -> 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\cache\webpack\client-development\0.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\cache\webpack\client-development\0.pack.gz_' -> 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\cache\webpack\client-development\0.pack.gz'
+ ⨯ ./src/app/page.tsx
+Error:   [31mx[0m Expression expected
+    ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\app\page.tsx[0m:16:1]
+ [2m13[0m |         <Hero />
+ [2m14[0m |         <Experience />
+ [2m15[0m |         <Rev
+ [2m16[0m |         <Locations />
+    : [35;1m        ^[0m
+ [2m17[0m |         <Menu />
+ [2m18[0m |       </main>
+ [2m19[0m |       <Footer />
+    `----
+  [31mx[0m Expression expected
+    ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\app\page.tsx[0m:16:1]
+ [2m13[0m |         <Hero />
+ [2m14[0m |         <Experience />
+ [2m15[0m |         <Rev
+ [2m16[0m |         <Locations />
+    : [35;1m                    ^[0m
+ [2m17[0m |         <Menu />
+ [2m18[0m |       </main>
+ [2m19[0m |       <Footer />
+    `----
+  [31mx[0m Unterminated regexp literal
+    ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\app\page.tsx[0m:18:1]
+ [2m15[0m |         <Rev
+ [2m16[0m |         <Locations />
+ [2m17[0m |         <Menu />
+ [2m18[0m |       </main>
+    : [35;1m       ^^^^^^[0m
+ [2m19[0m |       <Footer />
+ [2m20[0m |     </>
+ [2m21[0m |   );
+    `----
+  [31mx[0m Expression expected
+    ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\app\page.tsx[0m:18:1]
+ [2m15[0m |         <Rev
+ [2m16[0m |         <Locations />
+ [2m17[0m |         <Menu />
+ [2m18[0m |       </main>
+    : [35;1m        ^^^^^[0m
+ [2m19[0m |       <Footer />
+ [2m20[0m |     </>
+ [2m21[0m |   );
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/page.tsx
+ ⨯ ./src/components/sections/reviews.tsx
+Error:   [31mx[0m Unterminated string constant
+    ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\components\sections\reviews.tsx[0m:32:1]
+ [2m29[0m |   {
+ [2m30[0m |     name: "Rafael Mendes",
+ [2m31[0m |     handle: "@rafamendes",
+ [2m32[0m |     text: "Que lugar gostoso, de frente pro parque Taquaral.
+    : [35;1m          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+ [2m33[0m | 
+ [2m34[0m | Atendimento impecável, os pratos são maravilhosos.
+ [2m34[0m | 
+    `----
+  [31mx[0m Expected ',', got 'Atendimento'
+    ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\components\sections\reviews.tsx[0m:34:1]
+ [2m31[0m |     handle: "@rafamendes",
+ [2m32[0m |     text: "Que lugar gostoso, de frente pro parque Taquaral.
+ [2m33[0m | 
+ [2m34[0m | Atendimento impecável, os pratos são maravilhosos.
+    : [35;1m^^^^^^^^^^^[0m
+ [2m35[0m | 
+ [2m36[0m | Tem tanto ambiente dentro e fora.
+ [2m36[0m | 
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/reviews.tsx
+./src/app/page.tsx
+ ⨯ ./src/components/sections/reviews.tsx
+Error:   [31mx[0m Unterminated string constant
+    ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\components\sections\reviews.tsx[0m:32:1]
+ [2m29[0m |   {
+ [2m30[0m |     name: "Rafael Mendes",
+ [2m31[0m |     handle: "@rafamendes",
+ [2m32[0m |     text: "Que lugar gostoso, de frente pro parque Taquaral.
+    : [35;1m          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+ [2m33[0m | 
+ [2m34[0m | Atendimento impecável, os pratos são maravilhosos.
+ [2m34[0m | 
+    `----
+  [31mx[0m Expected ',', got 'Atendimento'
+    ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\components\sections\reviews.tsx[0m:34:1]
+ [2m31[0m |     handle: "@rafamendes",
+ [2m32[0m |     text: "Que lugar gostoso, de frente pro parque Taquaral.
+ [2m33[0m | 
+ [2m34[0m | Atendimento impecável, os pratos são maravilhosos.
+    : [35;1m^^^^^^^^^^^[0m
+ [2m35[0m | 
+ [2m36[0m | Tem tanto ambiente dentro e fora.
+ [2m36[0m | 
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/reviews.tsx
+./src/app/page.tsx
+ ⨯ ./src/components/sections/reviews.tsx
+Error:   [31mx[0m Unterminated string constant
+    ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\components\sections\reviews.tsx[0m:32:1]
+ [2m29[0m |   {
+ [2m30[0m |     name: "Rafael Mendes",
+ [2m31[0m |     handle: "@rafamendes",
+ [2m32[0m |     text: "Que lugar gostoso, de frente pro parque Taquaral.
+    : [35;1m          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+ [2m33[0m | 
+ [2m34[0m | Atendimento impecável, os pratos são maravilhosos.
+ [2m34[0m | 
+    `----
+  [31mx[0m Expected ',', got 'Atendimento'
+    ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\components\sections\reviews.tsx[0m:34:1]
+ [2m31[0m |     handle: "@rafamendes",
+ [2m32[0m |     text: "Que lugar gostoso, de frente pro parque Taquaral.
+ [2m33[0m | 
+ [2m34[0m | Atendimento impecável, os pratos são maravilhosos.
+    : [35;1m^^^^^^^^^^^[0m
+ [2m35[0m | 
+ [2m36[0m | Tem tanto ambiente dentro e fora.
+ [2m36[0m | 
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/reviews.tsx
+./src/app/page.tsx
+ ⨯ ./src/components/sections/reviews.tsx
+Error:   [31mx[0m Unterminated string constant
+    ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\components\sections\reviews.tsx[0m:32:1]
+ [2m29[0m |   {
+ [2m30[0m |     name: "Rafael Mendes",
+ [2m31[0m |     handle: "@rafamendes",
+ [2m32[0m |     text: "Que lugar gostoso, de frente pro parque Taquaral.Atendimento impecável, os pratos são maravilhosos.
+    : [35;1m          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+ [2m33[0m | 
+ [2m34[0m | Tem tanto ambiente dentro e fora.
+ [2m34[0m | 
+    `----
+  [31mx[0m Expected ',', got 'Tem'
+    ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\components\sections\reviews.tsx[0m:34:1]
+ [2m31[0m |     handle: "@rafamendes",
+ [2m32[0m |     text: "Que lugar gostoso, de frente pro parque Taquaral.Atendimento impecável, os pratos são maravilhosos.
+ [2m33[0m | 
+ [2m34[0m | Tem tanto ambiente dentro e fora.
+    : [35;1m^^^[0m
+ [2m35[0m | 
+ [2m36[0m | Estacionamento próprio.
+ [2m36[0m | Comi um medalhão de mignon, excelente, pedi bem passado e veio do jeito que pedi",
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/reviews.tsx
+./src/app/page.tsx
+ ⨯ ./src/components/sections/reviews.tsx
+Error:   [31mx[0m Unterminated string constant
+    ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\components\sections\reviews.tsx[0m:32:1]
+ [2m29[0m |   {
+ [2m30[0m |     name: "Rafael Mendes",
+ [2m31[0m |     handle: "@rafamendes",
+ [2m32[0m |     text: "Que lugar gostoso, de frente pro parque Taquaral. Atendimento impecável, os pratos são maravilhosos.
+    : [35;1m          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+ [2m33[0m | 
+ [2m34[0m | Tem tanto ambiente dentro e fora.
+ [2m34[0m | 
+    `----
+  [31mx[0m Expected ',', got 'Tem'
+    ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\components\sections\reviews.tsx[0m:34:1]
+ [2m31[0m |     handle: "@rafamendes",
+ [2m32[0m |     text: "Que lugar gostoso, de frente pro parque Taquaral. Atendimento impecável, os pratos são maravilhosos.
+ [2m33[0m | 
+ [2m34[0m | Tem tanto ambiente dentro e fora.
+    : [35;1m^^^[0m
+ [2m35[0m | 
+ [2m36[0m | Estacionamento próprio.
+ [2m36[0m | Comi um medalhão de mignon, excelente, pedi bem passado e veio do jeito que pedi",
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/reviews.tsx
+./src/app/page.tsx
+ ⨯ ./src/components/sections/reviews.tsx
+Error:   [31mx[0m Unterminated string constant
+    ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\components\sections\reviews.tsx[0m:32:1]
+ [2m29[0m |   {
+ [2m30[0m |     name: "Rafael Mendes",
+ [2m31[0m |     handle: "@rafamendes",
+ [2m32[0m |     text: "Que lugar gostoso, de frente pro parque Taquaral. Atendimento impecável, os pratos são maravilhosos.Tem tanto ambiente dentro e fora.
+    : [35;1m          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+ [2m33[0m | 
+ [2m34[0m | Estacionamento próprio.
+ [2m34[0m | Comi um medalhão de mignon, excelente, pedi bem passado e veio do jeito que pedi",
+    `----
+  [31mx[0m Expected ',', got 'Estacionamento'
+    ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\components\sections\reviews.tsx[0m:34:1]
+ [2m31[0m |     handle: "@rafamendes",
+ [2m32[0m |     text: "Que lugar gostoso, de frente pro parque Taquaral. Atendimento impecável, os pratos são maravilhosos.Tem tanto ambiente dentro e fora.
+ [2m33[0m | 
+ [2m34[0m | Estacionamento próprio.
+    : [35;1m^^^^^^^^^^^^^^[0m
+ [2m35[0m | Comi um medalhão de mignon, excelente, pedi bem passado e veio do jeito que pedi",
+ [2m36[0m |     rating: 5,
+ [2m36[0m |     source: "google",
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/reviews.tsx
+./src/app/page.tsx
+ ⨯ ./src/components/sections/reviews.tsx
+Error:   [31mx[0m Unterminated string constant
+    ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\components\sections\reviews.tsx[0m:32:1]
+ [2m29[0m |   {
+ [2m30[0m |     name: "Rafael Mendes",
+ [2m31[0m |     handle: "@rafamendes",
+ [2m32[0m |     text: "Que lugar gostoso, de frente pro parque Taquaral. Atendimento impecável, os pratos são maravilhosos. Tem tanto ambiente dentro e fora.
+    : [35;1m          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+ [2m33[0m | 
+ [2m34[0m | Estacionamento próprio.
+ [2m34[0m | Comi um medalhão de mignon, excelente, pedi bem passado e veio do jeito que pedi",
+    `----
+  [31mx[0m Expected ',', got 'Estacionamento'
+    ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\components\sections\reviews.tsx[0m:34:1]
+ [2m31[0m |     handle: "@rafamendes",
+ [2m32[0m |     text: "Que lugar gostoso, de frente pro parque Taquaral. Atendimento impecável, os pratos são maravilhosos. Tem tanto ambiente dentro e fora.
+ [2m33[0m | 
+ [2m34[0m | Estacionamento próprio.
+    : [35;1m^^^^^^^^^^^^^^[0m
+ [2m35[0m | Comi um medalhão de mignon, excelente, pedi bem passado e veio do jeito que pedi",
+ [2m36[0m |     rating: 5,
+ [2m36[0m |     source: "google",
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/reviews.tsx
+./src/app/page.tsx
+ ⨯ ./src/components/sections/reviews.tsx
+Error:   [31mx[0m Unterminated string constant
+    ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\components\sections\reviews.tsx[0m:32:1]
+ [2m29[0m |   {
+ [2m30[0m |     name: "Rafael Mendes",
+ [2m31[0m |     handle: "@rafamendes",
+ [2m32[0m |     text: "Que lugar gostoso, de frente pro parque Taquaral. Atendimento impecável, os pratos são maravilhosos. Tem tanto ambiente dentro e fora. Estacionamento próprio.
+    : [35;1m          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+ [2m33[0m | Comi um medalhão de mignon, excelente, pedi bem passado e veio do jeito que pedi",
+ [2m34[0m |     rating: 5,
+ [2m34[0m |     source: "google",
+    `----
+  [31mx[0m Expected ',', got 'Comi'
+    ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\components\sections\reviews.tsx[0m:33:1]
+ [2m30[0m |     name: "Rafael Mendes",
+ [2m31[0m |     handle: "@rafamendes",
+ [2m32[0m |     text: "Que lugar gostoso, de frente pro parque Taquaral. Atendimento impecável, os pratos são maravilhosos. Tem tanto ambiente dentro e fora. Estacionamento próprio.
+ [2m33[0m | Comi um medalhão de mignon, excelente, pedi bem passado e veio do jeito que pedi",
+    : [35;1m^^^^[0m
+ [2m34[0m |     rating: 5,
+ [2m35[0m |     source: "google",
+ [2m35[0m |     date: "Abril 2025",
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/reviews.tsx
+./src/app/page.tsx
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\cache\webpack\client-development\1.pack.gz_' -> 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\cache\webpack\client-development\1.pack.gz'

@@ -13,13 +13,15 @@ import {
 } from "../../lib/brand-links";
 
 const leftLinks = [
-  { href: "#experiencia", label: "Experiência" },
-  { href: "#cardapio", label: "Cardápio" },
+  { href: "#avaliacao", label: "Avaliação" },
+  { href: "#experiencia", label: "Sua experiência" },
+ 
   { href: "#localizacoes", label: "Unidades" },
+
 ];
 
 const rightLinks = [
-  { href: "#beneficios", label: "Benefícios" },
+  { href: "#cardapio", label: "Cardápio" },
   { href: INSTAGRAM_URL, label: "Instagram", external: true },
   { href: "#contato", label: "Contato" },
 ];
