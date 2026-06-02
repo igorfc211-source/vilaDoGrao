@@ -137,18 +137,9 @@ export default function Reviews() {
       id="avaliacao"
       className="relative overflow-hidden bg-[#1B2B1B] py-24 sm:py-32 lg:py-40"
     >
-      {/* textura de pontos */}
-      <div
-        className="pointer-events-none absolute inset-0 opacity-[0.03]"
-        style={{
-          backgroundImage: "radial-gradient(#A4EA4F 1px, transparent 1px)",
-          backgroundSize: "32px 32px",
-        }}
-      />
+     
 
-      {/* brilho central */}
-      <div className="pointer-events-none absolute left-1/2 top-0 h-[500px] w-[900px] -translate-x-1/2 rounded-full bg-[#314D31]/30 blur-[120px]" />
-
+   
       <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-8">
 
         {/* ── cabeçalho ── */}
