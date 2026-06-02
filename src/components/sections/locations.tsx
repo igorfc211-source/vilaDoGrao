@@ -7,6 +7,8 @@ import {
   MapPin,
   Clock3,
 } from "lucide-react";
+import { MdOutlineModeOfTravel } from "react-icons/md";
+
 
 export default function Locations() {
   const [active, setActive] = useState(0);
@@ -217,14 +219,13 @@ export default function Locations() {
               "
             >
               <div
-                className="
-                  grid
-
-                  lg:grid-cols-2
-                "
+               className="
+               grid
+               lg:grid-cols-[1.35fr_1fr]
+             "
               >
                 {/* INFO */}
-                <div className="p-12">
+                <div className="p-12 xl:p-14">
                   <span
                     className="
                       text-sm
@@ -238,14 +239,18 @@ export default function Locations() {
                   </span>
 
                   <h3
-                    className="
-                      mt-5
-
-                      text-5xl
-                      font-light
-
-                      text-[#1B2B1B]
-                    "
+                     className="
+                     mt-5
+                     max-w-[700px]
+                 
+                     text-4xl
+                     xl:text-5xl
+                 
+                     font-light
+                     leading-[1.08]
+                 
+                     text-[#1B2B1B]
+                   "
                     style={{
                       fontFamily:
                         "Playfair Display",
@@ -286,39 +291,76 @@ export default function Locations() {
                           text-[#96C549]
                         "
                       />
-                      <span className="text-[#354134]"> 
+                   <span
+  className="
+    flex-1
+    leading-relaxed
+    text-[#354134]
+  "
+>
                         {units[active].hours}
                       </span>
                     </div>
                   </div>
 
                   <div className="mt-10 flex gap-4">
-                    <a
-                      href="#"
-                      className="
-                        rounded-full
-                        bg-[#96C549]
-                        px-7
-                        py-4
-                        text-[#1B2B1B]
-                      "
-                    >
-                      Como chegar
-                    </a>
+                  <a
+  href="#"
+  className="
+    flex
+    items-center
+    gap-3
 
-                    <a
-                      href="#"
-                      className="
-                        flex
-                        items-center
-                        gap-2
+    rounded-full
 
-                        text-[#1B2B1B]
-                      "
-                    >
-                      Pedir nesta unidade
-                      <ArrowRight size={18} />
-                    </a>
+    bg-[#96C549]
+
+    px-8
+    py-4
+
+    font-medium
+
+    text-[#1B2B1B]
+
+    transition-all
+    duration-300
+
+    hover:scale-[1.03]
+    hover:bg-[#A4EA4F]
+  "
+>
+  <MdOutlineModeOfTravel size={20} />
+  <span>Como chegar</span>
+</a>
+
+<a
+  href="#"
+  className="
+    flex
+    items-center
+    gap-3
+
+    rounded-full
+
+    bg-[#ffffff]
+
+    px-8
+    py-4
+
+    font-medium
+
+    text-[#1B2B1B]
+
+    transition-all
+    duration-300
+
+    hover:scale-[1.03]
+    hover:bg-[#a5e096]
+  "
+>
+
+  <span >Pedir nesta unidade  <ArrowRight size={20}/> </span>
+</a>
                   </div>
                 </div>
 

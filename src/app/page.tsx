@@ -4,6 +4,7 @@ import Header from "../components/sections/header";
 import Experience from "../components/sections/experience";
 import Locations from "../components/sections/locations";
 import Footer from "../components/sections/footer";
+import Menu from "../components/sections/menu";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Hero />
         <Experience />
         <Locations />
+        <Menu />
         <Footer />
         </>
      

@@ -278,26 +278,7 @@ export default function Header() {
               <MessageCircle size={16} />
             </a>
 
-            {/* CTA */}
-            <a
-              href="#ifood"
-              className="
-                ml-2
-                rounded-full
-                bg-[#A4EA4F]
-                px-5
-                py-3
-                text-sm
-                font-medium
-                text-[#1B2B1B]
-                transition-all
-                duration-300
-                hover:scale-105
-                hover:bg-white
-              "
-            >
-              Pedir Agora
-            </a>
+           
           </div>
 
           {/* MOBILE */}
