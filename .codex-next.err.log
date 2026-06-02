@@ -218,3 +218,136 @@ Import trace for requested module:
 <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: invalid distances set
 <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: invalid distances set
 <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: invalid distances set
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\cache\webpack\client-development\4.pack.gz_' -> 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\cache\webpack\client-development\4.pack.gz'
+ ⨯ ./src/components/sections/experience.tsx
+Error:   [31mx[0m Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+     ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\components\sections\experience.tsx[0m:154:1]
+ [2m151[0m |             <span className="hidden sm:inline">Conheça nosso Instagram</span>
+ [2m152[0m |             <span className="sm:hidden">Instagram</span>
+ [2m153[0m |           </a>
+ [2m154[0m |         </div> */}
+     : [35;1m                 ^[0m
+ [2m155[0m | 
+ [2m156[0m |         {/* coluna de texto */}
+ [2m157[0m |         <div className="max-w-xl">
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/experience.tsx
+./src/app/page.tsx
+ ⨯ ./src/components/sections/experience.tsx
+Error:   [31mx[0m Expected '</', got 'jsx text (
+  [31m|[0m         )'
+     ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\components\sections\experience.tsx[0m:153:1]
+ [2m150[0m |                 </span>
+ [2m151[0m |                 <span className="hidden sm:inline">Conheça nosso Instagram</span>
+ [2m152[0m |                 <span className="sm:hidden">Instagram</span>
+ [2m153[0m | [35;1m,[0m[35;1m-[0m[35;1m>[0m           </a>
+ [2m154[0m | [35;1m`[0m[35;1m-[0m[35;1m>[0m         </div> */}
+ [2m155[0m |     
+ [2m156[0m |             {/* coluna de texto */}
+ [2m157[0m |             <div className="max-w-xl">
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/experience.tsx
+./src/app/page.tsx
+ ⨯ ./src/components/sections/experience.tsx
+Error:   [31mx[0m Expected '</', got 'jsx text (
+  [31m|[0m         )'
+     ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\components\sections\experience.tsx[0m:153:1]
+ [2m150[0m |                 </span>
+ [2m151[0m |                 <span className="hidden sm:inline">Conheça nosso Instagram</span>
+ [2m152[0m |                 <span className="sm:hidden">Instagram</span>
+ [2m153[0m | [35;1m,[0m[35;1m-[0m[35;1m>[0m           </a>
+ [2m154[0m | [35;1m`[0m[35;1m-[0m[35;1m>[0m         </div> 
+ [2m155[0m |     
+ [2m156[0m |             {/* coluna de texto */}
+ [2m157[0m |             <div className="max-w-xl">
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/experience.tsx
+./src/app/page.tsx
+ ⨯ ./src/components/sections/experience.tsx
+Error:   [31mx[0m Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+     ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\components\sections\experience.tsx[0m:262:1]
+ [2m259[0m |       </div>
+ [2m260[0m |     </section>
+ [2m261[0m |   );
+ [2m262[0m | }
+     : [35;1m^[0m
+     `----
+  [31mx[0m Expected '</', got 'jsx text (
+  [31m|[0m   );
+  [31m|[0m })'
+     ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\components\sections\experience.tsx[0m:260:1]
+ [2m257[0m |               </motion.div>
+ [2m258[0m |             ))}
+ [2m259[0m |           </div>
+ [2m260[0m | [35;1m,[0m[35;1m-[0m[35;1m>[0m     </section>
+ [2m261[0m | [35;1m|[0m     );
+ [2m262[0m | [35;1m`[0m[35;1m-[0m[35;1m>[0m }
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/experience.tsx
+./src/app/page.tsx
+ ⨯ ./src/components/sections/experience.tsx
+Error:   [31mx[0m Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+     ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\components\sections\experience.tsx[0m:262:1]
+ [2m259[0m |       </div>
+ [2m260[0m |     </section>
+ [2m261[0m |   );
+ [2m262[0m | }
+     : [35;1m^[0m
+     `----
+  [31mx[0m Expected '</', got 'jsx text (
+  [31m|[0m   );
+  [31m|[0m })'
+     ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\components\sections\experience.tsx[0m:260:1]
+ [2m257[0m |               </motion.div>
+ [2m258[0m |             ))}
+ [2m259[0m |           </div>
+ [2m260[0m | [35;1m,[0m[35;1m-[0m[35;1m>[0m     </section>
+ [2m261[0m | [35;1m|[0m     );
+ [2m262[0m | [35;1m`[0m[35;1m-[0m[35;1m>[0m }
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/experience.tsx
+./src/app/page.tsx
+ ⨯ ./src/components/sections/experience.tsx
+Error:   [31mx[0m Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+     ,-[[36;1;4mC:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\src\components\sections\experience.tsx[0m:154:1]
+ [2m151[0m |             <span className="hidden sm:inline">Conheça nosso Instagram</span>
+ [2m152[0m |             <span className="sm:hidden">Instagram</span>
+ [2m153[0m |           </a>
+ [2m154[0m |         </div> */}
+     : [35;1m                 ^[0m
+ [2m155[0m | 
+ [2m156[0m |         {/* coluna de texto */}
+ [2m157[0m |         <div className="max-w-xl">
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/experience.tsx
+./src/app/page.tsx
