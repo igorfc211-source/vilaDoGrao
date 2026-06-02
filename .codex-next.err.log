@@ -211,3 +211,10 @@ Import trace for requested module:
   path: 'C:\\Users\\Igor\\Desktop\\import\\FreelaTest\\vilaDoGrao\\viladograo\\.next\\routes-manifest.json'
 }
 <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: invalid block type
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\cache\webpack\client-development\0.pack.gz_' -> 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\cache\webpack\client-development\0.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: invalid distances set
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\cache\webpack\server-development\1.pack.gz_' -> 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\cache\webpack\server-development\1.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: invalid distances set
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: invalid distances set
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: invalid distances set

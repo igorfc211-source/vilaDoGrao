@@ -62,7 +62,7 @@ export default function Hero() {
       id="inicio"
       className="relative min-h-[100svh] overflow-hidden bg-[#1B2B1B] text-[#FAFAF7]"
     >
-      <div className="absolute inset-0 bg-[#1B2B1B] lg:inset-y-0 lg:left-0 lg:right-auto lg:w-[65%]" />
+      <div className="absolute inset-0 bg-[#1B2B1B] lg:inset-y-0  lg:left-0 lg:right-auto lg:w-[65%]" />
 
       <div className="absolute inset-0 overflow-hidden lg:inset-y-0 lg:left-auto lg:right-0 lg:w-[55%]">
       {images.map((image, index) => (
@@ -107,7 +107,7 @@ export default function Hero() {
       />
 
       <div className="relative z-20 mx-auto flex min-h-[100svh] max-w-7xl items-center px-5 pb-16 pt-32 sm:px-8 sm:pb-20 lg:px-12 lg:pr-[42%]">
-        <div className="max-w-3xl">
+        <div className="max-w-[1700px]">
           <div
             
             className="mb-7 sm:mb-8"
@@ -143,7 +143,8 @@ export default function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8, duration: 1 }}
-            className="mt-10 flex flex-col gap-3 sm:mt-12 sm:flex-row sm:gap-4"
+            className="mt-12 flex w-full
+sm:w-auto gap-4 "
           >
             <a
               href={IFOOD_URL}
