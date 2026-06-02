@@ -82,3 +82,132 @@ Import trace for requested module:
 ./src/components/sections/hero.tsx
 <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: invalid block type
 <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: invalid block type
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Igor\\Desktop\\import\\FreelaTest\\vilaDoGrao\\viladograo\\.next\\routes-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Igor\\Desktop\\import\\FreelaTest\\vilaDoGrao\\viladograo\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Igor\\Desktop\\import\\FreelaTest\\vilaDoGrao\\viladograo\\.next\\routes-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Igor\\Desktop\\import\\FreelaTest\\vilaDoGrao\\viladograo\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Igor\\Desktop\\import\\FreelaTest\\vilaDoGrao\\viladograo\\.next\\routes-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Igor\\Desktop\\import\\FreelaTest\\vilaDoGrao\\viladograo\\.next\\routes-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Igor\\Desktop\\import\\FreelaTest\\vilaDoGrao\\viladograo\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Igor\\Desktop\\import\\FreelaTest\\vilaDoGrao\\viladograo\\.next\\routes-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Igor\\Desktop\\import\\FreelaTest\\vilaDoGrao\\viladograo\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Igor\\Desktop\\import\\FreelaTest\\vilaDoGrao\\viladograo\\.next\\routes-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Igor\\Desktop\\import\\FreelaTest\\vilaDoGrao\\viladograo\\.next\\routes-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Igor\\Desktop\\import\\FreelaTest\\vilaDoGrao\\viladograo\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Igor\\Desktop\\import\\FreelaTest\\vilaDoGrao\\viladograo\\.next\\routes-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Igor\\Desktop\\import\\FreelaTest\\vilaDoGrao\\viladograo\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Igor\\Desktop\\import\\FreelaTest\\vilaDoGrao\\viladograo\\.next\\routes-manifest.json'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Igor\\Desktop\\import\\FreelaTest\\vilaDoGrao\\viladograo\\.next\\routes-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Igor\\Desktop\\import\\FreelaTest\\vilaDoGrao\\viladograo\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Igor\\Desktop\\import\\FreelaTest\\vilaDoGrao\\viladograo\\.next\\routes-manifest.json',
+  page: '/'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Igor\\Desktop\\import\\FreelaTest\\vilaDoGrao\\viladograo\\.next\\routes-manifest.json'
+}
+[Error: ENOENT: no such file or directory, open 'C:\Users\Igor\Desktop\import\FreelaTest\vilaDoGrao\viladograo\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\Igor\\Desktop\\import\\FreelaTest\\vilaDoGrao\\viladograo\\.next\\routes-manifest.json'
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: invalid block type

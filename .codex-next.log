@@ -73,3 +73,14 @@
  GET / 200 in 127ms
  ✓ Compiled in 804ms (1580 modules)
  GET / 200 in 100ms
+ ✓ Compiled in 1134ms (1580 modules)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 4.8s (1928 modules)
+ GET / 500 in 8145ms
+ GET / 500 in 304ms
+ GET / 500 in 1295ms
+ GET / 500 in 306ms
+ GET / 500 in 1204ms
+ GET / 500 in 312ms
+ GET / 500 in 1137ms
+ GET / 500 in 325ms
