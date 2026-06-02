@@ -26,10 +26,11 @@ const images = [
  
 const quickLinks = [
   {
-    href: "#cardapio",
+    href: "#menu",
     label: "Cardápio",
     description: "Unidade Taquaral",
     icon: MenuSquare,
+    external: false,
   },
   {
     href: "https://heyzine.com/flip-book/2777acdb05.html",
