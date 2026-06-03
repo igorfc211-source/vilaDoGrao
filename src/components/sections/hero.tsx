@@ -73,7 +73,7 @@ export default function Hero() {
             fill
             sizes="100vw"
             priority={index === 0}
-            className={`absolute inset-0 object-cover transition-opacity duration-[1800ms] ${
+            className={`absolute inset-0 object-cover transition-opacity duration-[1800ms]  ${
               index === currentImage ? "opacity-100" : "opacity-0"
             }`}
           />
